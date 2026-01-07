@@ -11,7 +11,7 @@ Daily Java problem solving to improve logic, consistency, and interview readines
 - Today Solved: **2 Problems**
 
 ## 📁 Structure
-Each folder represents **1 problem solved**.
+Each folder represents **2 problem solved**.
 
 
 
