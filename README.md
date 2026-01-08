@@ -4,7 +4,7 @@ Daily Java problem solving to improve logic, consistency,
 and interview readiness.
 
 ## 📅 Routine
-- Solve at least **1 Java problem daily**
+- Solve at least **2 Java problem daily**
 - Each problem has its own folder with:
   - Problem.md
   - Solution.java
