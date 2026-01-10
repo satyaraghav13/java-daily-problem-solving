@@ -92,5 +92,90 @@ Write a Java program to print the following number pattern.
 
 
 
+## Problem  9
+Write a Java program to print the following number pattern.
+
+## Output
+1 
+2 1 
+3 2 1 
+4 3 2 1 
+5 4 3 2 1 
+4 3 2 1 
+3 2 1 
+2 1 
+1 
+
+
+
+
+## Problem  10
+Write a Java program to print the following number pattern.
+
+## Output
+5 
+4 5 
+3 4 5 
+2 3 4 5 
+1 2 3 4 5 
+2 3 4 5 
+3 4 5 
+4 5 
+5 
+
+
+
+
+
+## Problem  11
+Write a Java program to print the following number pattern.
+
+## Output
+1 2 3 4 5 
+1 2 3 4 
+1 2 3 
+1 2 
+1 
+1 2 
+1 2 3 
+1 2 3 4 
+1 2 3 4 5 
+
+
+
+
+
+## Problem  11
+Write a Java program to print the following number pattern.
+
+## Output
+5 4 3 2 1 
+5 4 3 2 
+5 4 3 
+5 4 
+5 
+5 4 
+5 4 3 
+5 4 3 2 
+5 4 3 2 1 
+
+
+
+
+
+## Problem  11
+Write a Java program to print the following number pattern.
+
+## Output
+1
+22
+333
+4444
+55555
+
+
+
+
+
 
 
