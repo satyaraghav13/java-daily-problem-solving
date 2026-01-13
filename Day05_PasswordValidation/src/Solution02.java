@@ -114,7 +114,7 @@ public class Solution02 {
             // Final validation
             if (hasLower && hasDigit && hasSpecial) {
                 System.out.println("✅ Valid Password");
-                break;   // 🔚 exit loop when valid
+                break;   // 
             } else {
                 System.out.println("❌ Invalid Password (Missing required characters)");
             }
