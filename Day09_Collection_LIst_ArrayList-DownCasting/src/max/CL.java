@@ -13,8 +13,7 @@ public class CL {
 
             if (q instanceof Emp) {
                 Emp e = (Emp) q;
-                System.out.println(
-                        e.getEid() + " " + e.getName() + " " + e.getAdd()
+                System.out.println( e.getEid() + " " + e.getName() + " " + e.getAdd()
                 );
 
             } else if (q instanceof Manager) {
