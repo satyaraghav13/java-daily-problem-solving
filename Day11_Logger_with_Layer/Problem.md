@@ -1,0 +1,35 @@
+🔹 STEP 2: Download:
+log4j-1.2.17.jar
+
+🔹 STEP 2: Eclipse add 
+
+Project par Right Click
+
+Build Path
+
+Configure Build Path
+
+Libraries
+
+Add External JAR
+
+log4j-1.2.17.jar
+
+Apply & OK
+
+#### log4j.properties
+
+# Define the root logger with file appender
+log4j.rootLogger=DEBUG, FILE
+
+# Define the file appender
+log4j.appender.FILE=org.apache.log4j.FileAppender
+
+# Log file location
+log4j.appender.FILE.File=src/log4jOutput.log
+# Alternative paths (use only one)
+# log4j.appender.FILE.File=D:/log4jOutput.log
+
+# Define the layout for file appender
+log4j.appender.FILE.layout=org.apache.log4j.PatternLayout
+log4j.appender.FILE.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} [%t] %-5p %c - %m%n
