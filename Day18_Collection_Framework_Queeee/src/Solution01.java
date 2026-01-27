@@ -14,7 +14,7 @@ public class Solution01 {
         // Sort in descending order
         Collections.sort(salaries, Collections.reverseOrder());
 
-        // Get second highest
+        
         if (salaries.size() >= 2) {
             System.out.println("Second Highest Salary: " + salaries.get(1));
         } else {
