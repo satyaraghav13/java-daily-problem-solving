@@ -1,27 +1,27 @@
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.FileInputStream;
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Solution01 {
-
     public static void main(String[] args) {
 
-        String filePath = "C:/Users/satya/Desktop/data.csv";
+        String filePath = "C:/Users/satya/Downloads/bookread.xlsx";
 
-        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+        try (FileInputStream fis = new FileInputStream(filePath);
+             Workbook workbook = new XSSFWorkbook(fis)) {
 
-            String line;
-            while ((line = br.readLine()) != null) {
-                // split by comma
-                String[] values = line.split(",");
-                for (String v : values) {
-                    System.out.print(v + "\t");
+            Sheet sheet = workbook.getSheetAt(0);
+
+            for (Row row : sheet) {
+                for (Cell cell : row) {
+                    System.out.print(cell.toString() + "\t");
                 }
                 System.out.println();
             }
 
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
 }
+
