@@ -1,11 +1,11 @@
 class Solution01 {
 
-    // Method Overloading - Integer addition
+ 
     int add(int a, int b) {
         return a + b;
     }
 
-    // Method Overloading - Double addition
+    
     double add(double a, double b) {
         return a + b;
     }
