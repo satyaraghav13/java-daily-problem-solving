@@ -37,7 +37,7 @@ class Producer extends Thread {
 
     public void run() {
         try {
-            for (int i = 1; i <= 5; i++) {
+            for (int i = 1; i <= 50; i++) {
                 resource.produce(i);
                 Thread.sleep(500);
             }
@@ -56,7 +56,7 @@ class Consumer extends Thread {
 
     public void run() {
         try {
-            for (int i = 1; i <= 5; i++) {
+            for (int i = 1; i <= 10; i++) {
                 resource.consume();
                 Thread.sleep(500);
             }
